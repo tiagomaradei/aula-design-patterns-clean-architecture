@@ -27,6 +27,6 @@ export default abstract class Strogonoff implements IPrato {
     );
     console.log('Preparando arroz:', this.ingredientes.arroz.getDescription());
     console.log(this.tecnicaCozimento.executarTecnica());
-    console.log('Espaguete Strogonoff!');
+    console.log('Strogonoff finalizado!');
   }
 }
